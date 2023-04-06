@@ -1,0 +1,67 @@
+.wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.wrapper-content {
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	margin: 100px;
+	display: flex;
+	flex-direction: column;
+}
+
+input {
+	margin: 5px 0;
+	padding: 5px;
+}
+
+.btn-wrapper {
+	width: 100%;
+	margin: 10px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+button {
+	width: 110px;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 10px;
+	border: none;
+	color: white;
+	background-color:deeppink;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid gray;
+}
+
+th {
+	min-height: 100px;
+	padding: 10px;
+	border: 1px solid gray;
+	text-align: center;
+	color: white;
+	background-color:deeppink;
+}
+
+th:first-child {
+	min-height: 20px;
+}
+
+td {
+	border: 1px solid gray;
+	padding: 5px;
+}
